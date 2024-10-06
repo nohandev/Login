@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50em;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px black, -2px -2px 7px black;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #000;
+}
+
+
+
+.inputs {
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 4px black, -1px -1px 4px black;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.icon-input {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-input img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px; 
+    height: 20px; 
+}
+
+.icon-input input {
+    padding-left: 40px;
+}
+.title-input {
+    margin: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container-show-password {
+    display: flex;
+    flex-direction: row;
+    margin-left: -7.9em;
+    padding: 0px;
+
+}
+
+p.show-password {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 12px;
+}
+
+#check-password {
+    margin: 0px;
+}
+
+p.checking {
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: -25px;
+    color: red;
+}
+
+
+#register {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+}
+#button-register{
+    background-color: #fff;
+    border: none;
+    box-shadow: 1px 1px 4px black, -1px -1px 4px black;
+    border-radius: 5px;
+    width:80px;
+    margin-top: -15px;
+    font-size: 1.1em;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+    transition: 0.3s;
+
+}
+
+#button-register:hover {
+    background-color: #cacaca;
+    transform: scale(1.1);
+}
+
+a.link-login {
+    text-decoration: none;
+}
+
+#title-social-framework {
+    padding: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#title-social-framework h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#icons-social-framework {
+    margin-top: -20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    
+}
+
+#icons-social-framework img {
+    position: relative;
+    top: 50%;
+    left: 10px;
+    width: 50px; 
+    height: 50px; 
+    transition: 0.3s;
+}
+
+#icons-social-framework img:hover {
+    transform: scale(1.2);
+}
